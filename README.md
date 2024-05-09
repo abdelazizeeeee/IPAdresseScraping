@@ -14,5 +14,9 @@ The purpose of this project is to automate the process of collecting IP addresse
 
 ## Installation
 
-1. Clone this repository:
-git clone
+```
+import ProxyScraper
+proxy_scraper = ProxyScraper()
+ip_addresses = proxy_scraper.fetch_ip_addresses(10)
+print(ip_addresses)
+```
