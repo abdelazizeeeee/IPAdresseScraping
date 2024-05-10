@@ -1,9 +1,0 @@
-LICENSE
-README.md
-pyproject.toml
-setup.py
-IPAdresseScraping.egg-info/PKG-INFO
-IPAdresseScraping.egg-info/SOURCES.txt
-IPAdresseScraping.egg-info/dependency_links.txt
-IPAdresseScraping.egg-info/requires.txt
-IPAdresseScraping.egg-info/top_level.txt

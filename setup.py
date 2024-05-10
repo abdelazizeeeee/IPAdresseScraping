@@ -1,29 +1,9 @@
-from setuptools import setup, find_packages
-import codecs
-import os
+import setuptools
 
 
-VERSION = "0.1.0"
-DESCRIPTION = "Get IP addresses from a website using Selenium and Chrome WebDriver"
-
-with open("requirements.txt") as f:
-    requirements = f.read().splitlines()
-
-setup(
+setuptools.setup(
     name="IPAdresseScraping",
-    version=VERSION,
+    version="0.0.1",
     author="abdelazizeeeee",
-    author_email="abdelaziz.naija@horizon-tech.tn",
-    description=DESCRIPTION,
-    packages=find_packages(),
-    install_requires=requirements,
-    keywords=["python", "IP", "Selenium", "WebDriver", "Scraping"],
-    classifiers=[
-        "Development Status :: 1 - Planning",
-        "Intended Audience :: Developers",
-        "Programming Language :: Python :: 3",
-        "Operating System :: Unix",
-        "Operating System :: MacOS :: MacOS X",
-        "Operating System :: Microsoft :: Windows",
-    ],
-)
+    description="A package to scrape IP addresses from a website",
+    packages=setuptools.find_packages())
