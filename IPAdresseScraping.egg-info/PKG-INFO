@@ -2,7 +2,8 @@ Metadata-Version: 2.1
 Name: IPAdresseScraping
 Version: 0.1.0
 Summary: Get IP addresses from a website using Selenium and Chrome WebDriver
-Author-email: <abdelaziz.naija@horizon-tech.tn>
+Author: Abdelaziz NAIJA
+Author-email: abdelaziz.naija@horizon-tech.tn
 Keywords: python,IP,Selenium,WebDriver,Scraping
 Classifier: Development Status :: 1 - Planning
 Classifier: Intended Audience :: Developers
@@ -13,7 +14,6 @@ Classifier: Operating System :: Microsoft :: Windows
 Description-Content-Type: text/markdown
 License-File: LICENSE
 Requires-Dist: selenium==4.20.0
-
 
 # Web Scraping for IP Addresses
 
